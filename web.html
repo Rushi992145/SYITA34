@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script language = "JavaScript" type = "text/javascript">
+            let MyWindow;
+            function newWin(){
+                MyWindow = window.open("","MyWindow","width=400,height=400");
+                MyWindow.document.write("<html><frameset cols='50%,*'><frame src='1.html' name ='leftFrame'><frame src='2.html' name ='rightFrame'><frameset></head>")
+            }       
+        </script>
+    </head>
+    <body>
+        <h1>Click on following button to open new window and its having two frames</h1>
+        <form name = "form1">
+            <input type = "button" value = "Go to new window" onClick = "newWin();">
+        </form>
+    </body>
+</html>
