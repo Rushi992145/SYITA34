@@ -1,13 +1,32 @@
+body{
+    background-color: rgb(255,255,255);
+    margin-top: 0px;
+}
+
+span{
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
 .container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17rem;
+}
+.first{
+    width: 700px;
     background-color: #EDE4FF;
     font-family: sans-serif;
     height: 350px;
-    width: 700px;
     font-family:sans-serif;
     border-radius: 10px;
     padding-top: 15px;
     margin-top: 20px;
     margin-left: 10px;
+    /* margin-right: 25rem; */
     padding-left: 20px;
 }
 .container2{
@@ -28,4 +47,19 @@ img{
     width: 240px;
     height: 150px;
     padding: 10px;
+}
+#footer{
+    margin-top: 50px;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#footer div{
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
